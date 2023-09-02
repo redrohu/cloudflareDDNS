@@ -86,7 +86,7 @@ else
 		/etc/init.d/$CLIEN restart;
 		echo "已重启$CLIEN";
 		echo "为保证cloudflareAPI连接正常 将在30秒后开始更新域名解析";
-		sleep 3s;
+		sleep 30s;
 fi
 #开始循环
 echo "正在更新域名，请稍后...";
